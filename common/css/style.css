@@ -1,0 +1,175 @@
+@charset "UTF-8";
+body {
+	color: #333333;
+	background: #91989F;
+	font-family: "Tsukushi B Round Gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
+}
+p {
+	font-size: 14px;
+}
+.articleDetailHead {
+	color: #FFFFFF;
+	text-align: center;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 200px;
+}
+.title {
+	font-size: 64px;
+	margin-bottom: 0px;
+}
+.title:after {
+	background-color: #FFFFFF; /* 線色 */
+	border-radius: 3px; /* 線幅の半分 */
+	content: "";
+	display: block;
+	height: 6px; /* 線幅 */
+}
+.subTitle {
+	font-size: 40px;
+	margin-top: 0px;
+}
+.categoryHeader {
+	font-size: 36px;
+	text-align: center;
+}
+.categoryHeader-PD {
+	color: #0064FA;
+}
+.categoryHeader-PD:after {
+	background-color: #0064FA;
+	border-radius: 2px; /* 線幅の半分 */
+	content: "";
+	display: block;
+	height: 4px; /* 線幅 */
+}
+.categoryHeader-Ww {
+	color: #D0104C;
+}
+.categoryHeader-Ww:after {
+	background-color: #D0104C;
+	border-radius: 2px; /* 線幅の半分 */
+	content: "";
+	display: block;
+	height: 4px; /* 線幅 */
+}
+.categoryHeader-GA {
+	color: #F2FF3E;
+}
+.categoryHeader-GA:after {
+	background-color: #F2FF3E;
+	border-radius: 2px; /* 線幅の半分 */
+	content: "";
+	display: block;
+	height: 4px; /* 線幅 */
+}
+.categoryHeader-Ab {
+	color: #616C75;
+	font-size: 24px
+}
+.categoryHeader-Ab:after {
+	background-color: #616C75;
+	border-radius: 2px; /* 線幅の半分 */
+	content: "";
+	display: block;
+	height: 4px; /* 線幅 */
+}
+#pageHeader {
+/*height:1000px;*/
+}
+#pageBodyMain {
+	width: 80%;
+	margin: auto;
+	padding-top: 0px;
+}
+.work {
+	width: 22%;
+	height: 0px;
+	padding-bottom: 22%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	float: left;
+	margin: 1.5%;
+}
+.work img {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+.index:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+@media (max-width: 1200px) {
+.work {
+	width: 28%;
+	height: 0px;
+	padding-bottom: 28%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	float: left;
+	margin: 2.6%;
+}
+}
+
+@media (max-width: 800px) {
+.articleDetailHead {
+	margin-bottom: 100px;
+}
+.title {
+	font-size: 60px;
+}
+.subTitle {
+	font-size: 36px;
+}
+.work {
+	width: 40%;
+	height: 0px;
+	padding-bottom: 40%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	float: left;
+	margin: 5%;
+}
+}
+
+@media (max-width : 479px ) {
+.articleDetailHead {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.title {
+	font-size: 28px;
+}
+.title:after {
+	border-radius: 1.5px; /* 線幅の半分 */
+	height: 3px; /* 線幅 */
+}
+.subTitle {
+	font-size: 28px;
+}
+.categoryHeader {
+	font-size: 30px;
+	text-align: center;
+}
+.work {
+	width: 80%;
+	height: 0px;
+	padding-bottom: 80%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	float: left;
+	margin: 0% 10% 10%;
+}
+}
