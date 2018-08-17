@@ -1,5 +1,7 @@
 @charset "UTF-8";
 body {
+	margin:0;
+	padding:0;
 	color: #333333;
 	background: #91989F;
 	font-family: "Tsukushi B Round Gothic", "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
@@ -7,12 +9,16 @@ body {
 p {
 	font-size: 14px;
 }
+#wrapper {
+  width:100%;
+  overflow:hidden;
+}
 .articleDetailHead {
 	color: #FFFFFF;
 	text-align: center;
 	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 10%;
+	margin-left: 10%;
 	margin-bottom: 200px;
 }
 .title {
@@ -33,6 +39,8 @@ p {
 .categoryHeader {
 	font-size: 36px;
 	text-align: center;
+	width: 100%;
+	margin: 0%;
 }
 .categoryHeader-PD {
 	color: #0064FA;
@@ -75,12 +83,9 @@ p {
 	display: block;
 	height: 4px; /* 線幅 */
 }
-#pageHeader {
-/*height:1000px;*/
-}
 #pageBodyMain {
 	width: 80%;
-	margin: auto;
+	margin: 10%;
 	padding-top: 0px;
 }
 .work {
@@ -119,6 +124,11 @@ p {
 	float: left;
 	margin: 2.6%;
 }
+.index:after {
+	content: "";
+	clear: both;
+	display: block;
+}
 }
 
 @media (max-width: 800px) {
@@ -141,9 +151,14 @@ p {
 	float: left;
 	margin: 5%;
 }
+.index:after {
+	content: "";
+	clear: both;
+	display: block;
+}
 }
 
-@media (max-width : 452px ){
+@media (max-width : 452px ) {
 .articleDetailHead {
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -160,7 +175,6 @@ p {
 }
 .categoryHeader {
 	font-size: 30px;
-	text-align: center;
 }
 .work {
 	width: 80%;
@@ -169,7 +183,12 @@ p {
 	position: relative;
 	top: 0px;
 	left: 0px;
-	float: left;
-	margin: 0% 10% 10%;
+	float: center;
+	margin: 10%;
+}
+.index:after {
+	content: "";
+	clear: both;
+	display: block;
 }
 }
