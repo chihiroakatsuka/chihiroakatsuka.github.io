@@ -9,10 +9,6 @@ body {
 p {
 	font-size: 14px;
 }
-#wrapper {
-  width:100%;
-  overflow:hidden;
-}
 .articleDetailHead {
 	color: #FFFFFF;
 	text-align: center;
