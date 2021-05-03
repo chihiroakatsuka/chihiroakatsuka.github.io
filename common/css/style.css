@@ -42,7 +42,7 @@ p {
 	color: #0064FA;
 }
 .categoryHeader-PD:after {
-	background-color: #0064FA;
+	background-color: #000000;
 	border-radius: 2px; /* 線幅の半分 */
 	content: "";
 	display: block;
