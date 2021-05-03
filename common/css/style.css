@@ -39,7 +39,7 @@ p {
 	margin: 0%;
 }
 .categoryHeader-PD {
-	color: #0064FA;
+	color: #000000;
 }
 .categoryHeader-PD:after {
 	background-color: #000000;
@@ -49,7 +49,7 @@ p {
 	height: 4px; /* 線幅 */
 }
 .categoryHeader-Ww {
-	color: #D0104C;
+	color: #000000;
 }
 .categoryHeader-Ww:after {
 	background-color: #D0104C;
@@ -59,7 +59,7 @@ p {
 	height: 4px; /* 線幅 */
 }
 .categoryHeader-GA {
-	color: #F2FF3E;
+	color: #000000;
 }
 .categoryHeader-GA:after {
 	background-color: #F2FF3E;
