@@ -32,16 +32,6 @@ function init() {
   // シーンに追加
   scene.add(light);
 
-  tick();
-
-  function tick() {
-    requestAnimationFrame(tick);
-
-    // 箱を回転させる
-    box.rotation.x += 0.01;
-    box.rotation.y += 0.01;
-
-    // レンダリング
-    renderer.render(scene, camera);
-  }
+  // レンダリング
+  renderer.render(scene, camera);
 }
